@@ -1,4 +1,4 @@
-import { Box, HStack, Text } from "@chakra-ui/core";
+import { Box, HStack, Text } from "@chakra-ui/react";
 import VoteButtons from "./vote-buttons";
 
 import React from "react";

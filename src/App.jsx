@@ -1,7 +1,7 @@
-import { Container, Flex, Spinner, VStack } from "@chakra-ui/core";
+import { Container, Flex, Spinner, VStack } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import Post from "./components/post";
-import db from "./lib/firebase";
+import { db } from "./lib/firebase";
 
 const App = () => {
   const [posts, setPosts] = useState([]);
