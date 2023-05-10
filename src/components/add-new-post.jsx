@@ -12,7 +12,7 @@ import {
   ModalOverlay,
   HStack,
   useDisclosure,
-} from "@chakra-ui/core";
+} from "@chakra-ui/react";
 import React, { useState, useEffect } from "react";
 import db from "../lib/firebase";
 

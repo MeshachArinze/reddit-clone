@@ -1,7 +1,7 @@
-import { IconButton, Text, VStack } from "@chakra-ui/core";
+import { IconButton, Text, VStack } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { FiArrowDown, FiArrowUp } from "react-icons/fi";
-import db from "../lib/firebase";
+import { db } from "../lib/firebase";
 
 const VoteButtons = ({ post }) => {
   const [isVoting, setVoting] = useState(false);
